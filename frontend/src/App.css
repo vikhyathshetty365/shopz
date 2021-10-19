@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  margin: 0;
+}
+a>button{
+  height:40px;
+  width: 80px;
+  cursor:pointer;
+}
+

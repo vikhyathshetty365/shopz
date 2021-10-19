@@ -1,0 +1,38 @@
+.footer {
+    padding:2vmax;
+    margin-top:10vmax;
+    background-color:black;
+    display: flex;
+    color:white;
+   
+}
+.div1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div2
+{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 >img{
+
+    width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+.div3
+{
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.div2>h1{
+    color:tomato;
+}
