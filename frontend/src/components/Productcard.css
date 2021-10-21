@@ -4,5 +4,37 @@
 }
 .product
 {
+    
+   
+    text-decoration: none;
+    text-align: left;
     margin: 10px;
+   
+}
+
+.star-rating
+{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+
+.prod-description  >p
+{
+ display: flex;
+ flex-direction:flex-start;
+
+ margin:0px;
+}
+
+.product>.prod-description  >h4
+{
+    margin:0px;
+    color:tomato;
+}
+.product:hover
+{
+   box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+
+  transform: translateY(-1vmax);
 }

@@ -11,4 +11,6 @@ router.route('/userdetails').get(isauth, getuserDetails)
 router.route('/updateprofile').put(isauth, updateProfile)
 router.route('/deleteuser/:id').delete(isauth, isadmin("admin"), deleteuser)
 
+
+
 module.exports = router
