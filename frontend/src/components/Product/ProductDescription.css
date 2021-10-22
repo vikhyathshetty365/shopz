@@ -1,0 +1,171 @@
+.product-description
+{
+    display: flex;
+    margin: 10px;
+    justify-content:center;
+    margin:40px;
+   
+}
+.product-details {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+.product-id
+{
+    border-bottom: 1px solid gray;
+    color:lightgray;
+}
+
+.product-image
+{
+    
+}
+.quantity>div
+{
+    
+}
+.quantity
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+
+    
+}
+
+.add-cart
+{
+    
+    background-color: tomato;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    color: white;
+    cursor:pointer;
+    border-radius: 25px;
+    margin:auto;
+}
+.quantity>div{
+    display: flex;
+    margin:2px;
+}
+
+.submit-review
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:tomato;
+    border-radius: 25px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    
+    margin:10px auto;
+    
+}
+h1{
+    margin:0px;
+}
+.product-details>p
+{
+    
+    margin:0px;
+}
+
+.quantity
+{
+  
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    
+   
+}
+h4{
+    margin: 0px;
+}
+.carousel{
+    height:55vh;
+}
+.quantity-box{
+    display: flex;
+   
+}
+@media screen and (max-width:500px)
+{
+    .product-description{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .quantity>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .quantity-box
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .add-cart{
+        margin-top:5px;
+    }
+   
+}
+.product-reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.product-reviews>h4
+{
+    border-bottom: 1px solid gray;
+    margin: 5vh;
+}
+.in
+{
+    color: green;
+    font-weight: bold;
+}
+.stock
+{
+    display: flex;
+}
+
+.out
+{
+    color: red;
+    font-weight: bold;
+}
+
+.reviews
+{
+    display: flex;
+    
+    
+   
+}
+
+@media  screen and (max-width:600px) 
+{
+ .reviews
+{
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+}
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Productcard.css'
 import ReactStars from 'react-stars'
-const Productcard = ({ name, price, reviews, images, ratings }) => {
+const Productcard = ({ name, price, reviews, images, ratings, id }) => {
 
     const options = {
 
@@ -14,7 +14,7 @@ const Productcard = ({ name, price, reviews, images, ratings }) => {
     }
     return (
 
-        <Link className="product">
+        <Link to={`/productdetails/${id}`} className="product">
             <img src={images} />
             <div className="prod-description">
                 <p>{name} </p>

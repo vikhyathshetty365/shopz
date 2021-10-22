@@ -38,8 +38,10 @@ const Home = () => {
 
                     <div className="productcard">
                         {
-                            prods.map((e) => (<Productcard
+                            prods?.map((e) => (<Productcard
+
                                 images={products.images}
+                                id={e._id}
                                 name={e.name}
                                 price={e.price}
                                 reviews={e.reviews.length}

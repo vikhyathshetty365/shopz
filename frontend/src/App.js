@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Home from './components/Home.js'
 import Contacts from './components/Contacts.js'
 
-
+import ProductDescription from './components/Product/ProductDescription.js'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/contact" component={Contacts} />
-
+          <Route exact path="/productdetails/:id" component={ProductDescription} />
         </Switch>
 
 

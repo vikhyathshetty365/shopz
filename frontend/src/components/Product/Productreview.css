@@ -1,0 +1,21 @@
+.review-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+ 
+ padding: 4px;
+ box-shadow: 3px 3px 31px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 3px 31px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 31px -5px rgba(0,0,0,0.75);
+
+
+}
+
+.profile
+{
+    height: 10vh;
+    width: 10vh;
+}
