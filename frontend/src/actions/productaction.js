@@ -1,11 +1,12 @@
 
 import axios from 'axios'
 import { GET_PRODUCTS_REQUEST, GET_PRODUCTS_SUCCESS, GET_PRODUCTS_FAILURE, GET_PRODUCT_REQUEST, GET_PRODUCT_SUCCESS, GET_PRODUCT_FAILURE } from '../constants.js'
-export const getallproducts = (keyword = "") => async (dispatch) => {
+export const getallproducts = (keyword = "", price, category = "") => async (dispatch) => {
     try {
         dispatch({ type: GET_PRODUCTS_REQUEST })
 
-        const { data } = await axios.get(`/api/v1/product/allproducts?keyword=${keyword}`)
+
+        const { data } = await axios.get(`/api/v1/product/allproducts?keyword=${keyword}&price[gt]=${price[0]} & price[lt]=${price[1]}`)
         console.log(data)
         dispatch({ type: GET_PRODUCTS_SUCCESS, payload: data.products })
     }

@@ -16,6 +16,10 @@
     margin: 5px;
       max-width: 100%;
 }
+li
+{
+    cursor: pointer;
+}
 .search-bar>button 
 {
     background-color: tomato;

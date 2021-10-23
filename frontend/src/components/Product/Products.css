@@ -9,17 +9,24 @@
     
     justify-content:flex-start;
     margin-top: 40px;
-   margin:50px;
+   margin:30px;
 }
 .prods-container>h4{
     border-bottom: 1px solid gray;
+}
+.filters
+{
+    width:120px;
+    margin: 10px;
 }
 .products
 {
     display: flex;
     flex-wrap: wrap;
+    
   
 }
+
 @media screen  and (max-width:600px) {
     .prods-container
     {
