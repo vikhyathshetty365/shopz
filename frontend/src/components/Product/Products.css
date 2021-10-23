@@ -1,0 +1,29 @@
+.prods-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    max-width: 100%;
+    align-items: center;
+    
+    justify-content:flex-start;
+    margin-top: 40px;
+   margin:50px;
+}
+.prods-container>h4{
+    border-bottom: 1px solid gray;
+}
+.products
+{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+@media screen  and (max-width:600px) {
+    .prods-container
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
